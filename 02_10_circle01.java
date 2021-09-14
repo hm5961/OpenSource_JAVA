@@ -6,14 +6,14 @@ public class circle01 {
 	
 	public static void main(String num[])
 	{
-		System.out.print("Ã¹¹øÂ° ¿øÀÇ Áß½É°ú ¹İÁö¸§ ÀÔ·Â>>");
+		System.out.print("ì²«ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ì…ë ¥>>");
 		Scanner scanner1 = new Scanner(System.in);
 
 		int x1 = scanner1.nextInt();
 		int y1 = scanner1.nextInt();
 		int r1 = scanner1.nextInt();
 
-		System.out.print("µÎ¹øÂ° ¿øÀÇ Áß½É°ú ¹İÁö¸§ ÀÔ·Â>>");
+		System.out.print("ë‘ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ì…ë ¥>>");
 		Scanner scanner2 = new Scanner(System.in);
 
 		int x2 = scanner1.nextInt();
@@ -27,8 +27,8 @@ public class circle01 {
 		int res = x*x + y*y;
 		
 		if( res >= r)
-			System.out.print("µÎ ¿øÀº °ãÄ¡Áö ¾Ê´Â´Ù.");
+			System.out.print("ë‘ ì›ì€ ê²¹ì¹˜ì§€ ì•ŠëŠ”ë‹¤.");
 		else
-			System.out.print("µÎ ¿øÀº ¼­·Î °ãÄ£´Ù.");
+			System.out.print("ë‘ ì›ì€ ì„œë¡œ ê²¹ì¹œë‹¤.");
 	}
 }
