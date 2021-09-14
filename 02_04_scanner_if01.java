@@ -6,7 +6,7 @@ public class scanner_if01 {
 
 	public static void main(String num[])
 	{
-		System.out.print("Á¤¼ö 3°³ ÀÔ·Â>>");
+		System.out.print("ì •ìˆ˜ 3ê°œ ì…ë ¥>>");
 		Scanner scanner = new Scanner(System.in);
 		
 		int num1 = scanner.nextInt();
@@ -19,16 +19,16 @@ public class scanner_if01 {
 			{
 				if( num2 > num3)
 				{
-					System.out.println("Áß°£°ªÀº"+num2);
+					System.out.println("ì¤‘ê°„ê°’ì€"+num2);
 				}
 				else if ( num2 < num3)
 				{
-					System.out.println("Áß°£°ªÀº"+num3);
+					System.out.println("ì¤‘ê°„ê°’ì€"+num3);
 				}
 			}
 			else if(num1 < num3)
 			{
-				System.out.println("Áß°£°ªÀº"+num1);
+				System.out.println("ì¤‘ê°„ê°’ì€"+num1);
 			}
 		}
 		else if(num1 < num2)
@@ -37,16 +37,16 @@ public class scanner_if01 {
 			{
 				if( num1 > num3)
 				{
-					System.out.println("Áß°£°ªÀº"+num1);
+					System.out.println("ì¤‘ê°„ê°’ì€"+num1);
 				}
 				else if ( num1 < num3)
 				{
-					System.out.println("Áß°£°ªÀº"+num3);
+					System.out.println("ì¤‘ê°„ê°’ì€"+num3);
 				}
 			}
 			else if(num2 < num3)
 			{
-				System.out.println("Áß°£°ªÀº"+num2);
+				System.out.println("ì¤‘ê°„ê°’ì€"+num2);
 			}
 		}
 	}
