@@ -9,7 +9,7 @@ public class circulator02 {
 		System.out.print("num1 op num2>>");
 		Scanner scanner = new Scanner(System.in);
 
-		int num1 = scanner.nextInt(); // ¹®Á¦¿¡¼­ ½Ç¼öÇü Ç¥ÇöÀ» ÇÏ¶ó ÇßÁö¸¸ ÀÌÅ¬¸³½º¿¡¼­ ½Ç¼öÇü ¿¬»ê ºÒ°¡
+		int num1 = scanner.nextInt(); // ë¬¸ì œì—ì„œ ì‹¤ìˆ˜í˜• í‘œí˜„ì„ í•˜ë¼ í–ˆì§€ë§Œ ì´í´ë¦½ìŠ¤ì—ì„œ ì‹¤ìˆ˜í˜• ì—°ì‚° ë¶ˆê°€
 		String op = scanner.next();
 		int num2 = scanner.nextInt();
 		int res = 0;
@@ -22,7 +22,7 @@ public class circulator02 {
 			res = num1 * num2;
 		if(op.equals("/")) {
 			if(num2 == 0)
-				System.out.print("/ 0 ºÒ°¡");
+				System.out.print("/ 0 ë¶ˆê°€");
 			res = num1 / num2;
 		}
 		switch(op) {
@@ -36,15 +36,15 @@ public class circulator02 {
 		case "/":
 			if(op.equals("/")) {
 				if(num2 == 0)
-					System.out.print("/ 0 ºÒ°¡");
+					System.out.print("/ 0 ë¶ˆê°€");
 				else
 					res = num1 / num2;
 			}
 		default:
-			System.out.print("ÀÔ·Â¿À·ù");
+			System.out.print("ì…ë ¥ì˜¤ë¥˜");
 			scanner.close();
 	}
-		System.out.println(num1 + op + num2 +"ÀÇ °è»ê°á°ú´Â "+ res);
+		System.out.println(num1 + op + num2 +"ì˜ ê³„ì‚°ê²°ê³¼ëŠ” "+ res);
 
 		scanner.close();
 	}
