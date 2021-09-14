@@ -7,7 +7,7 @@ public class scanner01 {
 
 	public static void main(String num[])
 	{
-		System.out.print("2ÀÚ¸®¼ö Á¤¼ö ÀÔ·Â>>");
+		System.out.print("2ìë¦¬ìˆ˜ ì •ìˆ˜ ì…ë ¥>>");
 		Scanner scanner = new Scanner(System.in);
 		
 		int number = scanner.nextInt();
@@ -16,8 +16,8 @@ public class scanner01 {
 		int num1 = number % 10;
 		
 		if(num1==num2)
-			System.out.println("Yes! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°½À´Ï´Ù.");
+			System.out.println("Yes! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ê°™ìŠµë‹ˆë‹¤.");
 		else 
-			System.out.println("No! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ ´Ù¸¨´Ï´Ù.");
+			System.out.println("No! 10ì˜ ìë¦¬ì™€ 1ì˜ ìë¦¬ê°€ ë‹¤ë¦…ë‹ˆë‹¤.");
 	}
 }
