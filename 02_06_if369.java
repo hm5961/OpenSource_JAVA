@@ -6,7 +6,7 @@ public class if369 {
 
 	public static void main(String num[])
 	{
-		System.out.print("1~99»çÀÌÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("1~99ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner scanner = new Scanner(System.in);
 		
 		int number = scanner.nextInt();
@@ -21,15 +21,15 @@ public class if369 {
 		if( num2 == 3 || num2 == 6 || num2 == 9 )
 		{
 			if( num1 == 3 || num1 == 6 || num1 == 9 )
-				System.out.println("¹Ú¼öÂ¦Â¦");
+				System.out.println("ë°•ìˆ˜ì§ì§");
 			else
-				System.out.println("¹Ú¼öÂ¦");
+				System.out.println("ë°•ìˆ˜ì§");
 		}
 		else 
 			if( num1 == 3 || num1 == 6 || num1 == 9 )
-				System.out.println("¹Ú¼öÂ¦");
+				System.out.println("ë°•ìˆ˜ì§");
 			else
-				System.out.println("¹Ú¼ö");
+				System.out.println("ë°•ìˆ˜");
 
 		scanner.close();		
 		
