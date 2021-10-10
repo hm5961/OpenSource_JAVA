@@ -56,7 +56,7 @@ class PositivePoint extends Point4
 	
 	public String toString()
 	{
-		String tmp = color + "»öÀÇ (" + getX() + "," + getY() + ") Á¡";		
+		String tmp = "(" + getX() + "," + getY() + ") ì ";		
 		return tmp;
 	}
 }
@@ -68,13 +68,13 @@ public class prac08
 		
 		PositivePoint p = new PositivePoint();
 		p.move(10, 10);
-		System.out.println(p.toString()+"ÀÔ´Ï´Ù.");
+		System.out.println(p.toString()+"ì…ë‹ˆë‹¤.");
 		
 		p.move(-5, 5);
-		System.out.println(p.toString()+"ÀÔ´Ï´Ù.");
+		System.out.println(p.toString()+"ì…ë‹ˆë‹¤.");
 		
 		PositivePoint p2 = new PositivePoint(-10, -10);
-		System.out.println(p2.toString()+"ÀÔ´Ï´Ù.");
+		System.out.println(p2.toString()+"ì…ë‹ˆë‹¤.");
 	}
 
 }
